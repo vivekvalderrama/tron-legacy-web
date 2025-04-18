@@ -1,0 +1,33 @@
+body {
+  background: black;
+  color: cyan;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+  font-size: 3em;
+  margin-top: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 15px 0;
+}
+
+a {
+  text-decoration: none;
+  color: cyan;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0 0 10px cyan;
+}
